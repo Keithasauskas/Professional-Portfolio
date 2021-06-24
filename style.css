@@ -1,0 +1,152 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(https://media.gettyimages.com/photos/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite-picture-id1285448823?s=2048x2048) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+  background: url(https://lh3.googleusercontent.com/ANCRNWmsXBJDfYIiSA4WIZdv9-XWeyTBAuyXlTSx3dGrnj_rvY4RbrMr9f6_ffkE5G6H1tOuG_ZQgBE1PzsZ3TSQViCaJmPY-OlPUPsUYiQrdTF9WRo8olSxnnXbmHjgaCJt-5m9j1qFLgvzyawyTx06EZ5HA5ofhKiJPC7OVZuOd8lKqW3ZdtGxWGD8nQE43UuZYunu4Ob3CQplFltJ0_9rPiSHdg4YH1qYoqXpkg3dUsAi1fZJM13gaZipdX0G7_Uob4TZwn7LVVMD5NuTqTRcxvakFGoSnmQ8iI3C530Mz3MdRHPc4neuuw1GDlLhtzdTgIwR8zJ_-_Tq-H3SZC6-DMeTduKVHPmQfHTD5zpNvjdrPTzquOLpgAKAlx4yJW1kyZ_4ktQ7Uas2q5no_IefHudFIo9bObcCc0FDXK93CWHNpp5fNSI3bec9-rCSoH2Mv-SeC8ih3pXQE0GZl0C5eUsQf18yPiFHU1nd-PhDLMajBQUXMyraUfPj6aBqOE11SWYsJfjyrjBBTzg0FQwidqq_k-RoKBQfBTukrn6vrXMcc4YgmMmRH34C7ABbFdCUFFjIFgkNmqx2Cbcmcfd30WAuaPHJI1_Ef2SIjqjeLMg9Ems1d5aFo-UGnLcwg3QZ6oNXoqpWhKFeE_ZL74G9jipYHkw3dHKno1J4rho7IyYnXtLOAtPFKNM1bEZap4v8ILLg3BmdWCKzVEmnbP-b=w1250-h937-no?authuser=0) center center;
+  background-size: cover;
+  height: 600px; 
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: right; 
+}
+
+.jumbotron p {
+  color: #fff; 
+  text-align: right; 
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  float: right; 
+}
+
+.footer { 
+  background: #000;
+  height: 80px; 
+  padding-bottom: 50px;
+}
+
+.footer p { 
+  color: #fff;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
